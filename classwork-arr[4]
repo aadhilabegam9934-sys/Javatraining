@@ -1,0 +1,19 @@
+import java.util.*;
+class Solution{
+    public static void main(String[] args) 
+    {
+      Scanner ap=new Scanner(System.in);
+      int n=ap.nextInt();
+      int arr[]=new int[50];
+      for(int i=0;i<n;i++)
+      arr[i]=ap.nextInt();
+      int i=n;
+      {
+       if(arr[i]>0) {
+        System.out.println("positive");
+       }else{
+          System.out.println("negative");
+       }
+      } 
+    }
+}
